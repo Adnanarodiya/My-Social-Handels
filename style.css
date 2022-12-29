@@ -1,0 +1,96 @@
+body {
+  background-size: cover;
+  color: white;
+  font-family: "Sen", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background-image {
+  width: 100%;
+  background-size: cover;
+  bottom: 0;
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+.conatiner {
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  /* margin-top: 100px; */
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.image {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.social_media {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.social-logo {
+  font-size: 36px;
+  padding: 0 10px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-group {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  background-color: white !important;
+  box-shadow: rgb(0 0 0) 12px 13px 4px -5px;
+  color: black;
+  border-radius: 30px;
+  margin: 10px 0;
+}
+
+.social-group:hover {
+  transform: translateX(20px);
+}
+
+.social-logo:hover {
+  transform: translateY(-10px);
+}
+
+.handels {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 30rem;
+}
+
+.logo-set {
+  display: flex;
+}
+
+.handel-logo {
+  max-width: 3rem;
+  max-height: 3rem;
+  margin-left: 10px;
+}
